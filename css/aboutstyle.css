@@ -1,0 +1,64 @@
+.email,
+.linkedin,
+.whatsapp,
+.telegram,
+.portfolio
+ {
+  margin: 0px 20px;
+  width: 35px;
+  transition: opacity 0.3s, transform 0.3s;
+  transform-origin: center;
+  will-change: transform;
+}
+.email:hover,
+.email:active,
+.linkedin:hover,
+.whatsapp:hover,
+.telegram:hover,
+.portfolio:hover
+ {
+  opacity: 0.3;
+  transform: scale(1.2);
+}
+
+
+
+
+body {
+    background-color: #0d0d0d;
+    color: white;
+    min-height: 100vh;
+   
+}
+
+
+
+.team-container {
+    display: flex;
+    justify-content: center; 
+    gap: 40px; 
+    padding: 20px;
+    padding-top: 30px;
+}
+
+
+.person-card {
+    border: 2px solid #c8a96e;
+    padding: 20px;
+    width: 600px; 
+    text-align: center; 
+    border-radius: 10px;
+    background-color: #1a1a1a; 
+    font-size: 20px;
+}
+
+
+
+.avatar{
+   width: 150px;
+    height: 150px;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+

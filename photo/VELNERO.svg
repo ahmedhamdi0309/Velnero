@@ -1,0 +1,45 @@
+<svg width="300" height="80" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+  <title>VELNERO Men's Wear Logo</title>
+
+  <defs>
+    <linearGradient id="gH" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#6B4F0F"/>
+      <stop offset="25%"  stop-color="#C4A24A"/>
+      <stop offset="50%"  stop-color="#F0D98A"/>
+      <stop offset="75%"  stop-color="#C4A24A"/>
+      <stop offset="100%" stop-color="#6B4F0F"/>
+    </linearGradient>
+    <linearGradient id="gRule" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0A0A0A"/>
+      <stop offset="20%"  stop-color="#C4A24A"/>
+      <stop offset="50%"  stop-color="#E8CF7E"/>
+      <stop offset="80%"  stop-color="#C4A24A"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="300" height="80" fill="#0A0A0A"/>
+
+  <!-- VELNERO wordmark -->
+  <text x="150" y="42"
+        font-family="'Century Gothic', 'Apple Gothic', CenturyGothic, AppleGothic, 'Trebuchet MS', sans-serif"
+        font-size="24" letter-spacing="7"
+        text-anchor="middle" font-weight="400"
+        fill="url(#gH)">VELNERO</text>
+
+  <!-- © above the O -->
+  <text x="236" y="27"
+        font-family="'Century Gothic', 'Apple Gothic', CenturyGothic, AppleGothic, 'Trebuchet MS', sans-serif"
+        font-size="7" text-anchor="middle" font-weight="400"
+        fill="#C4A24A" opacity="0.85">©</text>
+
+  <!-- Gold rule -->
+  <line x1="60" y1="52" x2="240" y2="52" stroke="url(#gRule)" stroke-width="0.5" stroke-linecap="round"/>
+
+  <!-- MEN'S WEAR -->
+  <text x="150" y="66"
+        font-family="'Century Gothic', 'Apple Gothic', CenturyGothic, AppleGothic, 'Trebuchet MS', sans-serif"
+        font-size="6" letter-spacing="4"
+        text-anchor="middle" font-weight="400"
+        fill="#C4A24A" opacity="0.65">MEN'S WEAR</text>
+</svg>

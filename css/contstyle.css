@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: #0d0d0d;
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 85px);
+    width: 100%;
+}
+
+.contact-card {
+    background-color: #1a1a1a;
+    border: 2px solid #c8a96e; 
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+.contact-card h2 {
+    color: #c8a96e;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.contact-card .subtitle {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.contact-card .desc {
+    color: #aaaaaa;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.email,
+.linkedin,
+.whatsapp,
+.telegram,
+.portfolio {
+    margin: 0px 20px;
+    width: 50px;
+    transition: opacity 0.3s, transform 0.3s;
+    transform-origin: center;
+    will-change: transform;
+}
+
+.email:hover,
+.email:active,
+.linkedin:hover,
+.whatsapp:hover,
+.telegram:hover,
+.portfolio:hover {
+    opacity: 0.3;
+    transform: scale(1.2);
+}

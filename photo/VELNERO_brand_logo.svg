@@ -1,0 +1,29 @@
+<svg width="300" height="60" viewBox="0 0 300 60" xmlns="http://www.w3.org/2000/svg">
+  <title>VELNERO</title>
+
+  <defs>
+    <linearGradient id="gH" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#6B4F0F"/>
+      <stop offset="25%"  stop-color="#C4A24A"/>
+      <stop offset="50%"  stop-color="#F0D98A"/>
+      <stop offset="75%"  stop-color="#C4A24A"/>
+      <stop offset="100%" stop-color="#6B4F0F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Transparent background — works on any website color -->
+
+  <!-- VELNERO wordmark -->
+  <text x="150" y="40"
+        font-family="'Century Gothic', 'Apple Gothic', CenturyGothic, AppleGothic, 'Trebuchet MS', sans-serif"
+        font-size="28" letter-spacing="10"
+        text-anchor="middle" font-weight="400"
+        fill="url(#gH)">VELNERO</text>
+
+  <!-- © superscript above O -->
+  <text x="265" y="20"
+        font-family="'Century Gothic', 'Apple Gothic', CenturyGothic, AppleGothic, 'Trebuchet MS', sans-serif"
+        font-size="8" text-anchor="middle" font-weight="400"
+        fill="#C4A24A" opacity="0.85">©</text>
+
+</svg>

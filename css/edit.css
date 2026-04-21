@@ -1,0 +1,42 @@
+
+@media screen and (max-width: 768px) {
+    
+   
+    body {
+        overflow-x: hidden; 
+    }
+
+    
+    nav, .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 0;
+    }
+
+    .navbar a {
+        margin: 8px 0;
+        font-size: 16px;
+    }
+
+    
+    .product-container, .grid-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    
+    .card, .product-card, img {
+        width: 90% !important; 
+        max-width: 350px;
+        margin: 10px auto;
+        height: auto;
+    }
+
+   
+    h1 { font-size: 26px !important; text-align: center; }
+    h2 { font-size: 20px !important; }
+    p { font-size: 15px; padding: 0 10px; }
+}

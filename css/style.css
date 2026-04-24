@@ -164,3 +164,59 @@ input:focus, select:focus {
 input {
     transition: all 0.3s ease;
 }
+
+
+.app-footer {
+    background-color: #0d0d0d; 
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #c8a96e;
+    margin-top: 0px;
+    width:100%;
+}
+
+
+#footer-text {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+.footer-author {
+    color: #c8a96e; 
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.footer-author:hover {
+    color: #ffffff; 
+    text-shadow: 0 0 5px #c8a96e; 
+}
+
+
+.footer-sep {
+    margin: 0 10px;
+    color: #c8a96e;
+}
+
+
+@media (max-width: 600px) {
+    .app-footer {
+        padding: 20px 10px;
+    }
+    #footer-text {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column; 
+        gap: 5px;
+    }
+    .footer-sep {
+        display: none;
+    }
+}
+main, section, div {
+    margin-bottom: 0 !important;
+}
